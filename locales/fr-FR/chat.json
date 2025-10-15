@@ -3,8 +3,8 @@
     "title": "Modèle"
   },
   "agentDefaultMessage": "Bonjour, je suis **{{name}}**, vous pouvez commencer à discuter avec moi immédiatement ou vous rendre dans [Paramètres de l'assistant]({{url}}) pour compléter mes informations.",
-  "agentDefaultMessageWithSystemRole": "Bonjour, je suis **{{name}}**, {{systemRole}}. Commençons la conversation !",
-  "agentDefaultMessageWithoutEdit": "Bonjour, je suis **{{name}}**. Commençons notre conversation !",
+  "agentDefaultMessageWithSystemRole": "Bonjour, je suis **{{name}}**, comment puis-je vous aider ?",
+  "agentDefaultMessageWithoutEdit": "Bonjour, je suis **{{name}}**, comment puis-je vous aider ?",
   "agents": "Assistant",
   "artifact": {
     "generating": "Génération en cours",
@@ -150,6 +150,11 @@
       "total": "Total consommé"
     }
   },
+  "minimap": {
+    "jumpToMessage": "Aller au message n° {{index}}",
+    "nextMessage": "Message suivant",
+    "previousMessage": "Message précédent"
+  },
   "newAgent": "Nouvel agent",
   "pin": "Épingler",
   "pinOff": "Désépingler",
@@ -281,6 +286,7 @@
       "actionFiletip": "Télécharger un fichier",
       "actionTooltip": "Télécharger",
       "disabled": "Le modèle actuel ne prend pas en charge la reconnaissance visuelle et l'analyse de fichiers, veuillez changer de modèle pour l'utiliser",
+      "fileNotSupported": "Le mode navigateur ne prend pas en charge le téléchargement de fichiers, seules les images sont autorisées",
       "visionNotSupported": "Le modèle actuel ne prend pas en charge la reconnaissance visuelle, veuillez changer de modèle pour l'utiliser"
     },
     "preview": {
@@ -289,6 +295,9 @@
         "pending": "Préparation du téléchargement...",
         "processing": "Traitement du fichier..."
       }
+    },
+    "validation": {
+      "videoSizeExceeded": "La taille du fichier vidéo ne peut pas dépasser 20 Mo, la taille actuelle est de {{actualSize}}"
     }
   },
   "zenMode": "Mode de concentration"

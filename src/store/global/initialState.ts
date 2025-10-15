@@ -30,11 +30,11 @@ export enum SettingsTabs {
   Agent = 'agent',
   Common = 'common',
   Hotkey = 'hotkey',
+  Image = 'image',
   LLM = 'llm',
   Provider = 'provider',
   Proxy = 'proxy',
   Storage = 'storage',
-  Sync = 'sync',
   SystemAgent = 'system-agent',
   TTS = 'tts',
 }
